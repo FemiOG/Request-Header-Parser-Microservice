@@ -14,9 +14,6 @@ app.get('/',function(req,res){
         "IP Address": ip, "Operating System": OS, language: language })
 })
 
-//res.writeHead(200, {"Content-Type": "application/json"});
-
-
 
 app.listen(8080, function () {
   console.log('Example app listening on port 8080!');
